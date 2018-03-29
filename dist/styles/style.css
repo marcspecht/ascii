@@ -585,7 +585,7 @@ tr {
     font-size: 12px;
   }
 }
-form.example input[type=text] {
+#search_field {
   padding: 15px;
   font-size: 15px;
   border: 1px solid #F4F5F9;
@@ -600,11 +600,11 @@ form.example input[type=text] {
 }
 
 @media only screen and (max-width: 1024px) {
-  form.example input[type=text] {
+  #search_field {
     font-size: 10px;
   }
 
-  form.example input[type=text] {
+  #search_field {
     background-color: #DDDFE6 !important;
     border: 1px solid #DDDFE6;
     border-bottom: 3px solid #F1404B;
